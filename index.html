@@ -1,81 +1,93 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Presentación</title>
 
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>CV</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css.scss/style.min.css" />
 
-	<!-- Estilos CSS -->
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,700&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-
-<body>
-	<div id="selector-theme">
-
-	</div>
-
-	<section id="global">
-
-		<!-- Cabecera -->
-		<header>
-			<div id="logo">
-				<h1><div class="borrado">Presentación</div>CV</h1>
-			</div>
-
-			<div class="clearfix"></div>
-
-			<nav id="menu">
-				<ul>
-					<li><a href="https://megagringa.github.io/IngPrograms/">Principal</a></li>
-					<li><a href="proyectos.html">Proyectos.</a></li>
-
-				</ul>
-			</nav>
-		</header>
-
-		<section id="mid">
-			<p>Esto es una mini presentación que ira cambiando el formato con el tiempo ya que uno aprende algo nuevo
-				dia a dia</p>
-
-			<p>Nombre y Apellido: Juan Pablo López</p>
-			<p>Estudiante de Ingeniería, proactivo y autodidacta.</p>
-			<p>Con interés en el desarrollo Web Full Stack, armado y arreglo de hardware.</p>
-			<p>Me divierte aprender nuevas tecnologías y lenguajes. </p>
-
-
-		</section>
-
-		<!-- Contenido foto-->
-		<section>
-
-			<aside id="sidebar">
-				<div>
-					<h4><span>¿Quien soy?</span></h4>
-					<img src="img/yo.jpg" />
-					<p>Etudiante de Ingeniería.</p>
-					<p>Programador.</p>
-					<p>Técnico en hardware.</p>
-				</div>
-
-			</aside>
-
-			<div class="clearfix"></div>
-		</section>
-
-	</section>
-
-	<footer>
-		CV de Juan Pablo López &copy;
-
-
-	</footer>
-</body>
-
+    
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/9bdc906322.js"></script>
+    <script
+      src="https://kit-pro.fontawesome.com/releases/latest/js/pro.min.js"
+      data-auto-a11y="true"
+      data-auto-fetch-svg=""
+      data-fetch-svg-from="https://kit-pro.fontawesome.com/releases/latest/svgs"
+      defer=""
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav flex">
+        <a href="#"
+          ><img src="" alt="(O_O)" class="brand nav-item"
+        /></a>
+        <input type="checkbox" name="mobile-nav" id="mobile-nav" />
+        <label for="mobile-nav">
+          <span class="mobile-button"></span>
+          <span class="mobile-button"></span>
+          <span class="mobile-button"></span>
+        </label>
+        <ul class="nav-links nav-item">
+          <li><a href="https://megagringa.github.io/IngPrograms/index.html" class="nav-btn btn btn-sm">Inicio</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header flex text-centered">
+      <h1 class="text-dark">
+        <span class="highlight">Juan Pablo López</span>
+        <br />
+        Desarrollador Web.
+      </h1>
+      <p></p>
+      <img src="./img/yo.jpg" alt="yo.jpg" class="shadow-md" />
+    </header>
+    <main>
+      
+      <section
+        class="portfolio container flex-col text-centered "
+        id="portfolio"
+      >
+        <h2>Proyectos</h2>
+      
+        <div class="pofo-container flex">
+        
+          <div class="pofo-item shadow-md">
+            <img src="./img/recua/bluedot.jpg" alt="Podcast" />
+            <div class="pofo-info-container flex-col">
+              <h2>BlueDot Podcast</h2>
+              <p class="mono">HTML5, CSS, Clip-path, Mobile First</p>
+              <a
+                href="https://megagringa.github.io/PodcastJPL/index.html"
+                class="btn btn-sm text-light"
+                >PodCast</a
+              >
+            </div>
+            <div class="overlay"></div>
+          </div>
+          
+            <div class="overlay"></div>
+          </div>
+        </div>
+      </section>
+      
+      
+    <footer>
+      
+    </footer>
+  </body>
 </html>
-
-
-
-

@@ -1,12 +1,18 @@
-# # Página Web "Presentación".
+# #Pagina Web Presentación
 
 ### [Presentación](https://megagringa.github.io/Presentacion/index.html)
 
-Es una página en la que hago una breve representación de quien soy y los proyectos que voy haciendo.
+Portafolio: Donde de a poco voy a ir subiendo proyectos. (estará en continuo desarrollo.)
 
-## Lenguajes y tecnologías.
+## Lenguajes y Tecnoloías
 
-- HTML5
+-   **HTML5**:
+            - HTML
+            - CSS
+            - JS
+-   SASS/SCSS
+-   FontAwesome
+-   Google Fonts
 
-El objetivo es hacer un menu con una breve representación de quien soy uniendo con hipervínculos a los de más
-proyectos(repositorios) que suba al github.
+Objetivo: Ir armando una página web con proyectos.
+
