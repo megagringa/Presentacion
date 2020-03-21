@@ -7,9 +7,9 @@ Portafolio: Donde de a poco voy a ir subiendo proyectos. (estará en continuo de
 ## Lenguajes y Tecnoloías
 
 -   **HTML5**:
-            - HTML
-            - CSS
-            - JS
+           - HTML
+           - CSS
+           - JS
 -   SASS/SCSS
 -   FontAwesome
 -   Google Fonts
