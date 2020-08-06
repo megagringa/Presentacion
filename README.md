@@ -8,7 +8,6 @@ Portafolio: Donde de a poco voy a ir subiendo proyectos. (estará en continuo de
 
 - HTML5
 - CSS3
-- JS(Javascript)
 -   SASS/SCSS
 -   FontAwesome
 -   Google Fonts
